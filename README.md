@@ -1,5 +1,10 @@
 # Rhex
 A ruby script to show hex dump from file
+# Input
+The script can either read from a file or from stdin  
+- `./hex.rb test`             : wil show the content of test in hex
+- `echo "bonjour" | ./hex.rb` : will show 'bonjour' in hex
+- `./hex.rb`                  : will put user input in hex in real time
 # Output
 The output is the same as the `xxd` command
 # Test
